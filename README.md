@@ -1,6 +1,7 @@
 # 点点 · 四页独立交互原型
 
 基于 Figma 设计稿还原，设计基准为 393 × 852，适配手机与电脑浏览器。使用 HTML、CSS 和原生 JavaScript 实现，无构建依赖。
+链接：https://ssnow007.github.io/diandian-prototype/
 
 ## 一、页面功能
 
