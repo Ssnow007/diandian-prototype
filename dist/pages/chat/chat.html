@@ -1,0 +1,46 @@
+<div class="chat-backdrop" aria-hidden="true"></div>
+<section
+  class="chat-panel"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="chat-title"
+>
+  <header class="chat-nav">
+    <button class="icon-button" data-close aria-label="关闭对话">
+      <img src="assets/chat-imgGroup130.svg" alt="" />
+    </button>
+    <h1 id="chat-title">点点</h1>
+    <button class="icon-button" data-more aria-label="更多对话选项">
+      <img src="assets/chat-img13.svg" alt="" />
+    </button>
+  </header>
+  <div
+    class="chat-messages scroll-region"
+    aria-live="polite"
+    aria-label="对话消息"
+  ></div>
+  <div class="chat-compose-area">
+    <form class="chat-composer">
+      <button type="button" class="chat-add" aria-label="添加图片">
+        <img src="assets/chat-imgIcon2.svg" alt="" /></button
+      ><textarea
+        rows="1"
+        aria-label="给点点发消息"
+        placeholder="给点点发消息..."
+        enterkeyhint="send"
+        autocomplete="off"
+      ></textarea
+      ><button class="chat-send" type="submit" aria-label="发送消息" disabled>
+        <img src="assets/chat-imgIcon3.svg" alt="" />
+      </button>
+    </form>
+    <div class="chat-attachment" hidden></div>
+  </div>
+  <img
+    class="chat-keyboard"
+    src="assets/keyboard.png"
+    alt="苹果键盘示意图，使用电脑键盘或输入法输入"
+    draggable="false"
+  />
+  <input class="chat-file" type="file" accept="image/*" hidden />
+</section>

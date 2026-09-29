@@ -1,0 +1,81 @@
+.home-page {
+  background: #fafafa;
+}
+.home-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 48px;
+  height: 87px;
+  z-index: 5;
+  background: white;
+}
+.home-nav > img {
+  width: 100%;
+  height: 87px;
+  object-fit: fill;
+}
+.home-nav button {
+  position: absolute;
+  top: 0;
+  width: 44px;
+  height: 46px;
+}
+.home-ai-hit {
+  left: 5px;
+}
+.home-search-hit {
+  right: 5px;
+}
+.home-feed {
+  position: absolute;
+  top: 134px;
+  bottom: 78px;
+  left: 0;
+  right: 0;
+}
+.home-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 78px;
+  display: flex;
+  z-index: 6;
+  background: white;
+}
+.home-bottom > img {
+  position: absolute;
+  width: 100%;
+  height: 78px;
+  object-fit: fill;
+  pointer-events: none;
+}
+.home-bottom button {
+  flex: 1;
+  position: relative;
+  height: 48px;
+}
+.feed-sentinel {
+  height: 1px;
+}
+
+.home-nav {
+  overflow: hidden;
+}
+.home-nav > img {
+  position: absolute;
+  height: 977.58%;
+  top: -53.16%;
+  width: 100%;
+  object-fit: fill;
+}
+.home-bottom {
+  overflow: hidden;
+}
+.home-bottom > img {
+  height: 1090.37%;
+  top: -990.06%;
+  width: 100%;
+  object-fit: fill;
+}

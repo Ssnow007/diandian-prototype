@@ -1,0 +1,97 @@
+<header class="ai-nav">
+  <button class="icon-button" data-close aria-label="返回首页">
+    <img src="assets/ai-imgGroup130.svg" alt="" />
+  </button>
+  <h1>点点</h1>
+  <button class="icon-button" data-more aria-label="更多">
+    <img src="assets/ai-img13.svg" alt="" />
+  </button>
+</header>
+<div class="ai-content scroll-region">
+  <section class="ai-hero ai-reveal">
+    <img class="ai-mascot" src="assets/ai-mascot.svg" alt="点点" />
+    <h2>Hi，我是点点<br />你的小红书AI助手</h2>
+  </section>
+  <section class="ai-intro ai-reveal">
+    <p>你种草，我总结，帮你一键消化小红书上的内容。</p>
+    <p>可以试试问我：</p>
+  </section>
+  <div class="ai-cards ai-reveal" aria-label="提问卡片"></div>
+  <section class="ai-recommend ai-reveal">
+    <h2>为你推荐：</h2>
+    <div class="ai-questions"></div>
+  </section>
+</div>
+<footer class="ai-footer">
+  <form class="ai-composer">
+    <div class="ai-input-wrap">
+      <button type="button" class="ai-voice" aria-label="语音输入">
+        <img src="assets/ai-imgIcon.svg" alt="" /></button
+      ><textarea
+        class="ai-input"
+        rows="1"
+        enterkeyhint="send"
+        placeholder="给点点发消息..."
+        aria-label="给点点发消息"
+        autocomplete="off"
+      ></textarea>
+    </div>
+    <button type="button" class="ai-camera" aria-label="添加照片">
+      <img src="assets/ai-imgIcon1.svg" alt="" />
+    </button>
+    <button class="ai-send" type="submit" aria-label="发送消息" disabled>
+      <img src="assets/chat-imgIcon3.svg" alt="" />
+    </button>
+  </form>
+  <div class="home-indicator"></div>
+</footer>
+
+<img
+  class="ai-keyboard"
+  src="assets/keyboard.png"
+  alt="苹果键盘示意图，使用电脑输入法打字"
+  hidden
+/>
+<div class="ai-conversation scroll-region" aria-label="点点对话" hidden>
+  <div class="ai-message-list" role="log" aria-live="polite"></div>
+  <div class="ai-loading" hidden>
+    <div class="ai-deck" aria-label="正在翻阅笔记">
+      <img
+        class="ai-deck-card"
+        src="assets/ai-loading-card-1.png"
+        alt="大耳朵藏不住的笔记"
+      /><img
+        class="ai-deck-card"
+        src="assets/ai-loading-card-2.png"
+        alt="第二张穿搭笔记"
+      /><img
+        class="ai-deck-card"
+        src="assets/ai-loading-card-3.png"
+        alt="第三张穿搭笔记"
+      />
+    </div>
+    <div class="ai-progress-row">
+      <img
+        class="ai-progress-mascot"
+        src="assets/ai-loading-mascot.svg"
+        alt=""
+      /><span>先看看小红书比较火的穿搭风格</span>
+      <div
+        class="ai-progress"
+        role="progressbar"
+        aria-label="笔记加载进度"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        aria-valuenow="0"
+      >
+        <i></i>
+      </div>
+    </div>
+  </div>
+  <div
+    class="ai-empty"
+    role="status"
+    aria-label="加载完成，暂无内容"
+    hidden
+  ></div>
+</div>

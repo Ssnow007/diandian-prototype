@@ -1,0 +1,187 @@
+.chat-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+}
+.chat-overlay[hidden] {
+  display: none;
+}
+.chat-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.chat-panel {
+  position: absolute;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f4f9fc;
+  border-radius: 24px 24px 0 0;
+  overflow: hidden;
+  --keyboard-height: 328px;
+}
+.chat-panel.opening {
+  animation: sheet-in 0.2s ease-in-out;
+}
+.chat-nav {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  right: 0;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3px;
+  z-index: 3;
+}
+.chat-nav h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.chat-keyboard {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--keyboard-height);
+  object-fit: fill;
+  border-radius: 20px 20px 0 0;
+  z-index: 5;
+  user-select: none;
+}
+.chat-compose-area {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--keyboard-height) - 24px);
+  padding: 64px 16px 36px;
+  background: linear-gradient(0deg, #b5ede0, rgba(181, 237, 224, 0));
+  pointer-events: none;
+  z-index: 4;
+}
+.chat-composer {
+  display: flex;
+  align-items: flex-end;
+  min-height: 48px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 0 10px #dbe6e5a8);
+  pointer-events: auto;
+}
+.chat-add,
+.chat-send {
+  height: 48px;
+  width: 48px;
+  display: grid;
+  place-items: center;
+  flex: none;
+}
+.chat-add {
+  width: 49px;
+  border-radius: 25px;
+  border: 0.6px solid white;
+  background: #ffffffe6;
+  box-shadow: 4px 0 6px #d9deed4d;
+}
+.chat-send:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.chat-composer textarea {
+  resize: none;
+  min-width: 0;
+  width: 100%;
+  border: 0;
+  background: none;
+  outline: none;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 13px 8px 13px 14px;
+  height: 48px;
+  max-height: 114px;
+  caret-color: #4bcdc2;
+  color: #111;
+  scrollbar-width: none;
+}
+.chat-composer textarea::placeholder {
+  color: #ccc;
+}
+.chat-messages {
+  position: absolute;
+  top: 64px;
+  bottom: calc(var(--keyboard-height) + 80px);
+  left: 0;
+  right: 0;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.chat-message {
+  max-width: 88%;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  flex: none;
+}
+.chat-message.user {
+  align-self: flex-end;
+  background: #d8f5ee;
+  border-bottom-right-radius: 4px;
+}
+.chat-message.assistant {
+  align-self: flex-start;
+  background: white;
+  border-bottom-left-radius: 4px;
+}
+.chat-message img {
+  max-width: 100%;
+  max-height: 160px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+.chat-attachment {
+  pointer-events: auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+  margin-top: 6px;
+}
+.chat-attachment button {
+  float: right;
+}
+.chat-overlay.native-keyboard .chat-panel {
+  --keyboard-height: 0px;
+}
+.chat-overlay.native-keyboard .chat-keyboard {
+  display: none;
+}
+.chat-overlay.native-keyboard .chat-compose-area {
+  bottom: 0;
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
+}
+.chat-overlay.native-keyboard.keyboard-open .chat-compose-area {
+  padding-bottom: 12px;
+}
+.chat-overlay.native-keyboard .chat-messages {
+  bottom: 100px;
+}
+@keyframes sheet-in {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,298 @@
+[
+  {
+    "file": "cover-white.png",
+    "bytes": 78295,
+    "figmaNode": "4906:4365",
+    "usage": ["pages/search/data.js"]
+  },
+  {
+    "file": "chat-imgIcon2.svg",
+    "bytes": 605,
+    "figmaNode": null,
+    "usage": ["pages/chat/chat.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-imgIcon.svg",
+    "bytes": 878,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "chat-imgIcon3.svg",
+    "bytes": 733,
+    "figmaNode": null,
+    "usage": ["pages/chat/chat.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "home-imgIcon.svg",
+    "bytes": 3430,
+    "figmaNode": null,
+    "usage": ["shared/note-card.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-img8.svg",
+    "bytes": 1241,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"34\" height=\"34\" viewBox=\"0 0 34 34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "home-imgWifi.svg",
+    "bytes": 1565,
+    "figmaNode": null,
+    "usage": ["shared/ui.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16.7266\" height=\"12.5\" viewBox=\"0 0 16.7266 12.5\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-img13.svg",
+    "bytes": 430,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "search-img3.svg",
+    "bytes": 577,
+    "figmaNode": null,
+    "usage": ["pages/search/search.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"20.107\" height=\"20\" viewBox=\"0 0 20.107 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "keyboard.png",
+    "bytes": 58722,
+    "figmaNode": "4932:4519",
+    "usage": ["pages/chat/chat.html"]
+  },
+  {
+    "file": "home-imgBorderStroke.svg",
+    "bytes": 1848,
+    "figmaNode": null,
+    "usage": ["shared/ui.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"24.9972\" height=\"12.8773\" viewBox=\"0 0 24.9972 12.8773\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "home-imgScreenshot20260927At1730311.png",
+    "bytes": 2139275,
+    "figmaNode": null,
+    "usage": ["pages/home/home.html"]
+  },
+  {
+    "file": "search-imgImage686.png",
+    "bytes": 624484,
+    "figmaNode": null,
+    "usage": ["pages/search/data.js"]
+  },
+  {
+    "file": "avatar-ear.png",
+    "bytes": 1745,
+    "figmaNode": "4900:3284",
+    "usage": ["pages/home/data.js", "pages/search/data.js"]
+  },
+  {
+    "file": "chat-imgGroup130.svg",
+    "bytes": 474,
+    "figmaNode": null,
+    "usage": ["pages/chat/chat.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "avatar-fen.png",
+    "bytes": 1784,
+    "figmaNode": "4895:3102",
+    "usage": ["pages/home/data.js", "pages/search/data.js"]
+  },
+  {
+    "file": "cover-outfit.png",
+    "bytes": 81358,
+    "figmaNode": "4906:4381",
+    "usage": ["pages/search/data.js"]
+  },
+  {
+    "file": "search-imgRectangle982.svg",
+    "bytes": 456,
+    "figmaNode": null,
+    "usage": ["pages/search/search.css"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-imgGroup229.svg",
+    "bytes": 1633,
+    "figmaNode": null,
+    "usage": ["index.html", "pages/ai/ai.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "search-img11.svg",
+    "bytes": 636,
+    "figmaNode": null,
+    "usage": ["pages/search/search.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"20\" viewBox=\"0 0 16 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-imgIcon1.svg",
+    "bytes": 910,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "search-imgScreenshot20260708At12412.png",
+    "bytes": 272752,
+    "figmaNode": null,
+    "usage": ["pages/search/search.html"]
+  },
+  {
+    "file": "home-imgCellularConnection.svg",
+    "bytes": 1180,
+    "figmaNode": null,
+    "usage": ["shared/ui.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"17.8164\" height=\"11.1787\" viewBox=\"0 0 17.8164 11.1787\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "search-imgIcon1.svg",
+    "bytes": 1859,
+    "figmaNode": null,
+    "usage": ["pages/search/search.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16.1008\" height=\"16\" viewBox=\"0 0 16.1008 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "home-imgCap.svg",
+    "bytes": 340,
+    "figmaNode": null,
+    "usage": ["shared/ui.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"1.50896\" height=\"4.54494\" viewBox=\"0 0 1.50896 4.54494\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "chat-img13.svg",
+    "bytes": 430,
+    "figmaNode": null,
+    "usage": ["pages/chat/chat.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "cover-stripes.png",
+    "bytes": 85892,
+    "figmaNode": "4906:4325",
+    "usage": ["pages/search/data.js"]
+  },
+  {
+    "file": "search-imgGroup139.svg",
+    "bytes": 934,
+    "figmaNode": null,
+    "usage": ["pages/search/search.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-mascot.svg",
+    "bytes": 10882,
+    "figmaNode": "4889:2161",
+    "usage": ["pages/ai/ai.html"],
+    "svgRoot": "<svg width=\"246\" height=\"300\" viewBox=\"0 0 246 300\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "avatar-six.png",
+    "bytes": 1807,
+    "figmaNode": "4900:3265",
+    "usage": ["pages/home/data.js", "pages/search/data.js"]
+  },
+  {
+    "file": "avatar-477.png",
+    "bytes": 1734,
+    "figmaNode": "4900:3483",
+    "usage": ["pages/home/data.js", "pages/search/data.js"]
+  },
+  {
+    "file": "search-imgVector207.svg",
+    "bytes": 249,
+    "figmaNode": null,
+    "usage": ["pages/search/search.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"0.4\" height=\"12\" viewBox=\"0 0 0.4 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "search-imgGroup98.svg",
+    "bytes": 359,
+    "figmaNode": null,
+    "usage": ["pages/search/search.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "search-img.svg",
+    "bytes": 491,
+    "figmaNode": null,
+    "usage": ["pages/search/search.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-img6.svg",
+    "bytes": 1241,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"34\" height=\"34\" viewBox=\"0 0 34 34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-img7.svg",
+    "bytes": 3733,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"128\" height=\"120\" viewBox=\"0 0 128 120\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-imgGroup98.svg",
+    "bytes": 378,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-img5.svg",
+    "bytes": 5907,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"128\" height=\"120\" viewBox=\"0 0 128 120\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-img4.svg",
+    "bytes": 1245,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"34\" height=\"34\" viewBox=\"0 0 34 34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-imgGroup130.svg",
+    "bytes": 474,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.html"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-img1.svg",
+    "bytes": 1144,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"148\" height=\"140\" viewBox=\"0 0 148 140\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "ai-img3.svg",
+    "bytes": 413,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"128\" height=\"120\" viewBox=\"0 0 128 120\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "file": "search-imgScreenshot20260707At2246432.png",
+    "bytes": 1180314,
+    "figmaNode": null,
+    "usage": ["pages/search/data.js"]
+  },
+  {
+    "file": "ai-img2.svg",
+    "bytes": 4976,
+    "figmaNode": null,
+    "usage": ["pages/ai/ai.js"],
+    "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"128\" height=\"120\" viewBox=\"0 0 128 120\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  }
+]

@@ -1,0 +1,38 @@
+<header class="search-header">
+  <button class="icon-button search-back" aria-label="返回首页">
+    <img src="assets/search-img11.svg" alt="" />
+  </button>
+  <form class="search-form" role="search">
+    <input
+      type="search"
+      value="夏季穿搭"
+      aria-label="搜索内容"
+      autocomplete="off"
+      enterkeyhint="search"
+    /><button type="button" class="search-clear" aria-label="清空搜索">
+      <img src="assets/search-imgGroup139.svg" alt="" /></button
+    ><img
+      src="assets/search-imgVector207.svg"
+      class="search-divider"
+      alt=""
+    /><button type="submit" class="search-submit">搜索</button>
+  </form>
+</header>
+<nav class="search-tabs" aria-label="搜索分类">
+  <button class="selected" data-tab="全部">
+    全部 <img src="assets/search-img.svg" alt="" /></button
+  ><button data-tab="用户">用户</button><button data-tab="视频">视频</button
+  ><button data-tab="商品">商品</button><button data-tab="图片">图片</button
+  ><button class="search-ask" aria-label="问一问">
+    <span class="search-ask-icon"
+      ><img src="assets/search-imgScreenshot20260708At12412.png" alt="" /></span
+    >问一问
+  </button>
+</nav>
+<section class="search-feed scroll-region" aria-label="搜索结果">
+  <div class="masonry">
+    <div class="masonry-column"></div>
+    <div class="masonry-column"></div>
+  </div>
+  <div class="feed-sentinel" aria-hidden="true"></div>
+</section>

@@ -1,0 +1,320 @@
+:root {
+  font-family:
+    "PingFang SC",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Microsoft YaHei",
+    sans-serif;
+  color: #333;
+  background: #eceff1;
+  font-synthesis: none;
+  -webkit-tap-highlight-color: transparent;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+}
+button,
+input,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+button:active {
+  filter: brightness(0.95);
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #44cdbf;
+  outline-offset: 3px;
+}
+p,
+h1,
+h2 {
+  margin: 0;
+}
+img {
+  display: block;
+}
+button img {
+  pointer-events: none;
+}
+#phone {
+  position: relative;
+  width: 393px;
+  height: 852px;
+  overflow: hidden;
+  background: #fff;
+  isolation: isolate;
+}
+#page-root,
+.page {
+  position: absolute;
+  inset: 0;
+}
+.page[hidden] {
+  display: none;
+}
+.status-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background: #fff;
+  z-index: 20;
+  color: #000;
+}
+.status-time {
+  position: absolute;
+  left: 34px;
+  top: 17px;
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+}
+.status-cellular {
+  position: absolute;
+  right: 86.184px;
+  top: 22px;
+}
+.status-wifi {
+  position: absolute;
+  right: 61.6px;
+  top: 21.5px;
+}
+.status-battery {
+  position: absolute;
+  right: 29.08px;
+  top: 21px;
+}
+.status-cap {
+  position: absolute;
+  right: 26.43px;
+  top: 25.166px;
+}
+.status-capacity {
+  position: absolute;
+  right: 31.35px;
+  top: 23.272px;
+  width: 20.452px;
+  height: 8.332px;
+  border-radius: 1.446px;
+  background: #000;
+}
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex: none;
+}
+.home-indicator {
+  position: absolute;
+  bottom: 9.8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140.432px;
+  height: 5.24px;
+  border-radius: 100px;
+  background: #000;
+}
+.scroll-region {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll-region::-webkit-scrollbar {
+  display: none;
+}
+.masonry {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 6px;
+}
+.masonry-column {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  flex: 1;
+}
+.note-card {
+  border-radius: 4px;
+  background: #fff;
+  overflow: hidden;
+  flex: none;
+}
+.note-cover {
+  width: 100%;
+  aspect-ratio: 188/250;
+  position: relative;
+  background: #ececec;
+  overflow: hidden;
+}
+.note-cover > img.cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.note-info {
+  padding: 10px 10px 8px;
+}
+.note-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  height: 40px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.note-meta {
+  margin-top: 10px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.avatar {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex: none;
+}
+.note-author {
+  min-width: 0;
+  flex: 1;
+}
+.note-author span {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666;
+}
+.note-author time {
+  display: block;
+  font-size: 10px;
+  line-height: 14px;
+  color: #999;
+}
+.note-like {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666;
+  min-height: 32px;
+}
+.note-like[aria-pressed="true"] {
+  color: #f43b50;
+}
+.note-like[aria-pressed="true"] img {
+  filter: sepia(1) saturate(10) hue-rotate(310deg);
+}
+#toast {
+  position: absolute;
+  left: 50%;
+  bottom: 110px;
+  transform: translateX(-50%);
+  z-index: 100;
+  max-width: 85%;
+  background: #252a2ddd;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+#toast.visible {
+  opacity: 1;
+}
+.page.enter-fade {
+  animation: page-fade 0.2s ease-in-out;
+}
+.page.enter-right {
+  animation: page-right 0.2s ease-in;
+}
+.page.enter-left {
+  animation: page-left 0.2s ease-in-out;
+}
+@keyframes page-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes page-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes page-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@media (max-width: 600px) {
+  body {
+    display: block;
+    background: #fff;
+  }
+  #phone {
+    width: 100%;
+    height: 100dvh;
+    height: var(--app-height, 100dvh);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media (max-width: 600px) {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+  #phone {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+}
