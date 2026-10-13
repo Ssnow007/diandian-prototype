@@ -79,3 +79,14 @@
   width: 100%;
   object-fit: fill;
 }
+
+/* The home screenshot includes a system gesture bar below the app tabs. */
+@media (max-width: 600px), (pointer: coarse) and (max-height: 600px) {
+  .home-bottom::after {
+    content: "";
+    position: absolute;
+    inset: 54px 0 0;
+    background: white;
+    pointer-events: none;
+  }
+}

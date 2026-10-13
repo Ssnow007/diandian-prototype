@@ -325,7 +325,8 @@ button img {
   #phone {
     --status-bar-height: env(safe-area-inset-top, 0px);
   }
-  .status-bar {
+  .status-bar,
+  .home-indicator {
     display: none;
   }
   #page-root,
