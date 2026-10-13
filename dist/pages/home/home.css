@@ -5,7 +5,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 48px;
+  top: var(--status-bar-height);
   height: 87px;
   z-index: 5;
   background: white;
@@ -29,7 +29,7 @@
 }
 .home-feed {
   position: absolute;
-  top: 134px;
+  top: calc(var(--status-bar-height) + 86px);
   bottom: 78px;
   left: 0;
   right: 0;

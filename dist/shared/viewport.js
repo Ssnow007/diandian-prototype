@@ -5,7 +5,7 @@ export function installViewport(onChange) {
   const phone = document.querySelector("#phone");
   let baseline = window.innerHeight;
   function update() {
-    if (!matchMedia("(max-width:600px)").matches) {
+    if (!matchMedia("(max-width: 600px), (pointer: coarse) and (max-height: 600px)").matches) {
       phone.style.removeProperty("height");
       phone.style.removeProperty("top");
       onChange(false);
